@@ -1,0 +1,14 @@
+.list {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    width: 400px;
+}
+
+.item {
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: calc(100% / 5);
+}

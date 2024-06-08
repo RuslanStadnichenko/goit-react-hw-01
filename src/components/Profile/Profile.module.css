@@ -1,0 +1,64 @@
+.wrapper {
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.avatar {
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: slategrey;
+    margin-bottom: 10px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    line-height: 150%;
+}
+
+.description {
+    color: gray;
+    text-align: center;
+}
+
+.description:last-child {
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    background-color: gainsboro;
+    border-top: 1px solid gray;
+}
+
+.item {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-right: 1px solid gray;
+
+    &:last-child {
+        border-right: none;
+    }
+}
+
+.title {
+    font-weight: 500;
+    text-align: center;
+}
+
+.value {
+    text-align: center;
+    font-weight: bold;
+}
